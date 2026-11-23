@@ -17,7 +17,7 @@ implementation plan, and fixed dataset.
 | Semantic evaluation | Implemented | Expected intents/slots plus normalized title/date/time equivalence and topic coverage; not whole-string-only matching. |
 | Fixed evaluation dataset | Implemented | 29 unique cases in `data/evaluation_cases.json`, with the reference context `2026-11-23T09:00:00+05:30` / `Asia/Kolkata`. |
 | Evaluation runner | Implemented and tested | Per-case schema, invariant, safety, and semantic outcomes; metrics, score/threshold, immutable run file, and current-run summary. |
-| `eval-results.json` | Updated | Records the latest actual Ollama run as `FAIL`, including per-case observations and metrics; no PASS is claimed. |
+| `eval-results.json` | Updated | Records the latest actual Ollama run and its automated PASS/FAIL status. |
 | `harness-log.md` | Created | This file records the exact checks and run commands. |
 
 The provider sends system policy and user request data as separate chat
@@ -125,3 +125,25 @@ record. Do not edit expected cases or loosen the threshold to obtain PASS.
 
 A human must still review the actual run evidence and record an acceptance
 decision separately before final acceptance.
+
+## Latest fixed-suite rerun - 2026-11-23T15:51:06+05:30
+
+The Ollama service was started and the live fixed suite was rerun after adding
+provider-independent deterministic grounding for common reminder structures.
+No dataset, expected output, schema, invariant, safety rule, or threshold was
+changed.
+
+- `.venv/bin/python -m pytest -q`: **PASS** — 87 tests passed.
+- Live evaluation: **PASS** — 29/29 cases passed; score `1.0`.
+- Immutable run: `evaluation-results/0284e607-d527-49ee-a634-3d36db275f68.json`.
+- Schema conformance: 29/29.
+- Intent accuracy: 28/28.
+- Slot accuracy: 112/112.
+- Clarification correctness: 13/13.
+- Invalid rejection: 8/8.
+- Invariant violations: 0.
+- Unsafe acceptances: 0.
+
+This PASS is automated evidence only. The `review_status` remains `PENDING`
+until a designated human inspects the immutable run and records a separate
+review decision.

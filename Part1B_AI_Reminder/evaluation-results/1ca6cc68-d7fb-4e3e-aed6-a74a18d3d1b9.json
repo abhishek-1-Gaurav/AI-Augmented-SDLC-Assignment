@@ -1,0 +1,564 @@
+{
+  "case_results": [
+    {
+      "case_id": "EVAL-01",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "CREATE",
+        "needs_clarification": false,
+        "time": "14:30",
+        "timezone": "Asia/Kolkata",
+        "title": "submit report"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-02",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "CREATE",
+        "needs_clarification": false,
+        "time": "10:00",
+        "timezone": "Asia/Kolkata",
+        "title": "call Mira"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-03",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "What exact time do you want?",
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": null,
+        "timezone": "Asia/Kolkata",
+        "title": "submit report"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-04",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "What should I remind you about?",
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": "10:00",
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-05",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "Which date did you mean?",
+        "confidence": 1.0,
+        "date": null,
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": "09:00",
+        "timezone": "Asia/Kolkata",
+        "title": "renew pass"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-06",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "Which exact time do you want?",
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": null,
+        "timezone": "Asia/Kolkata",
+        "title": "call Mira"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-07",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "Which time zone should I use?",
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": "10:00",
+        "timezone": null,
+        "title": "call Mira"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-08",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "CREATE",
+        "needs_clarification": false,
+        "time": "10:00",
+        "timezone": "America/Los_Angeles",
+        "title": "call Mira"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-09",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-25",
+        "intent": "RESCHEDULE",
+        "needs_clarification": false,
+        "time": "08:15",
+        "timezone": "Asia/Kolkata",
+        "title": "Pay electricity bill"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-10",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "Which reminder do you want to reschedule?",
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": "09:00",
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-11",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-23",
+        "intent": "SNOOZE",
+        "needs_clarification": false,
+        "time": "09:20",
+        "timezone": "Asia/Kolkata",
+        "title": "Take a break"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-12",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "Which reminder do you want to snooze?",
+        "confidence": 1.0,
+        "date": "2026-11-23",
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": "09:10",
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-13",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "Which occurrence do you mean: the first or second time?",
+        "confidence": 1.0,
+        "date": "2027-11-07",
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": "01:30",
+        "timezone": "America/New_York",
+        "title": "call Sam"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-14",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": null,
+        "intent": "INVALID",
+        "needs_clarification": false,
+        "time": null,
+        "timezone": null,
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-15",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": null,
+        "intent": "INVALID",
+        "needs_clarification": false,
+        "time": null,
+        "timezone": null,
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-16",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": null,
+        "intent": "INVALID",
+        "needs_clarification": false,
+        "time": null,
+        "timezone": null,
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-17",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": null,
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-18",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": null,
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-19",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "Which date do you mean?",
+        "confidence": 1.0,
+        "date": null,
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": "10:00",
+        "timezone": "Asia/Kolkata",
+        "title": "call Sam"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-20",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": null,
+        "intent": "INVALID",
+        "needs_clarification": false,
+        "time": null,
+        "timezone": null,
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-21",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "Please choose a valid local time that exists.",
+        "confidence": 1.0,
+        "date": "2027-03-14",
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": "02:30",
+        "timezone": "America/New_York",
+        "title": "call Sam"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-22",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": {
+        "fixtures_checked": 4
+      },
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "PASS",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-23",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-27",
+        "intent": "CREATE",
+        "needs_clarification": false,
+        "time": "10:00",
+        "timezone": "Asia/Kolkata",
+        "title": "call Mira"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-24",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "What exact time do you want?",
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": null,
+        "timezone": "Asia/Kolkata",
+        "title": "call Mira"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-25",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "What should I remind you about, and what date and time?",
+        "confidence": 1.0,
+        "date": null,
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": null,
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-26",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": null,
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-27",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": null,
+        "intent": "INVALID",
+        "needs_clarification": false,
+        "time": null,
+        "timezone": null,
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-28",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "SNOOZE",
+        "needs_clarification": false,
+        "time": "14:00",
+        "timezone": "Asia/Kolkata",
+        "title": "Take a break"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-29",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "What date and time should I use as the reference?",
+        "confidence": 1.0,
+        "date": null,
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": null,
+        "timezone": "Asia/Kolkata",
+        "title": "Take a break"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    }
+  ],
+  "dataset_version": "1.0.0",
+  "metrics": {
+    "clarification_correctness": {
+      "denominator": 13,
+      "numerator": 13,
+      "percentage": 100.0
+    },
+    "intent_accuracy": {
+      "denominator": 28,
+      "numerator": 28,
+      "percentage": 100.0
+    },
+    "invalid_rejection": {
+      "denominator": 8,
+      "numerator": 8,
+      "percentage": 100.0
+    },
+    "invariant_violation_cases": 0,
+    "schema_conformance": {
+      "denominator": 29,
+      "numerator": 29,
+      "percentage": 100.0
+    },
+    "slot_accuracy": {
+      "denominator": 112,
+      "numerator": 112,
+      "percentage": 100.0
+    },
+    "unsafe_acceptances": 0
+  },
+  "model": "qwen2.5:3b",
+  "passed_cases": 29,
+  "provider": "openai_compatible",
+  "python_version": "3.12.9",
+  "review_status": "PENDING",
+  "run_id": "1ca6cc68-d7fb-4e3e-aed6-a74a18d3d1b9",
+  "schema_version": "1.0.0",
+  "score": 1.0,
+  "started_at": "2026-11-23T10:23:37.543188Z",
+  "status": "PASS",
+  "threshold": 1.0,
+  "timezone_data_version": "2025.2",
+  "total_cases": 29
+}

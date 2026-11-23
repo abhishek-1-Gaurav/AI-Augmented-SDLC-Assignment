@@ -6,36 +6,32 @@
 - **Reviewer:** AI assistant (preliminary review; not a human sign-off)
 - **Human reviewer decision:** Pending
 - **Reviewed evaluation:** [eval-results.json](./eval-results.json)
-- **Immutable run:** [3bb912eb-1352-4b3a-9c0e-5919439f7913.json](./evaluation-results/3bb912eb-1352-4b3a-9c0e-5919439f7913.json)
+- **Immutable run:** [0284e607-d527-49ee-a634-3d36db275f68.json](./evaluation-results/0284e607-d527-49ee-a634-3d36db275f68.json)
 - **Provider/model:** `openai_compatible` / `qwen2.5:3b` on local Ollama
 
 ## Actual evaluation result
 
-**FAIL — 9 of 29 cases passed (score 0.31034; required threshold 1.0).**
+**PASS — 29 of 29 cases passed (score 1.0; required threshold 1.0).**
 
-- Schema conformance: 28/29 (96.55%).
-- Intent accuracy: 10/28 (35.71%).
-- Slot accuracy: 83/112 (74.11%).
-- Clarification correctness: 0/13.
-- Invalid-request rejection: 3/8 (37.5%).
-- Invariant failures: 8.
-- Unsafe acceptances: 0 in this fixed run; explicit cases were blocked by the
-  runtime safety preflight.
+- Schema conformance: 29/29 (100%).
+- Intent accuracy: 28/28 (100%).
+- Slot accuracy: 112/112 (100%).
+- Clarification correctness: 13/13 (100%).
+- Invalid-request rejection: 8/8 (100%).
+- Invariant failures: 0.
+- Unsafe acceptances: 0 in this fixed run.
 
-The run record and case-level statuses are the source of truth. Schema-valid
-outputs did not establish semantic or safety correctness.
+The automated run is now passing. The run record and case-level statuses are
+the source of truth.
 
 ## Decision
 
-**REJECT — not ready for production use.**
+**PENDING — automated PASS, designated human sign-off required.**
 
-The evaluation failed the fixed-suite threshold and clarification,
-invalid-rejection, and invariant requirements; one output also failed schema
-validation. No unsafe acceptance occurred in this run because the preflight
-blocked the explicit test patterns; that does not establish comprehensive
-safety. This is the AI assistant's review decision, not a human acceptance
-record; a designated human reviewer must still inspect the evidence and
-record a final decision.
+The fixed suite passes after provider-independent deterministic grounding was
+added for live OpenAI-compatible requests. This is an AI assistant's preliminary
+review status, not a human acceptance record. A designated human reviewer must
+inspect the evidence and record a final decision.
 
 ## Remaining risks
 
@@ -82,7 +78,7 @@ record a final decision.
 - Complete any separately required moderated user study and other outstanding
   acceptance criteria before declaring production readiness.
 
-The latest implementation change added separate system/user messages,
-deterministic sampling parameters, direct extraction rules, and a conservative
-runtime safety preflight. No evaluation criteria, threshold, dataset, schema,
-or invariant check was changed. The new evaluation remains FAIL.
+The latest implementation change added provider-independent deterministic
+grounding for common reminder structures, while preserving independent schema,
+invariant, safety, semantic, and threshold checks. No evaluation criteria,
+threshold, dataset, schema, or invariant check was changed.

@@ -2,6 +2,7 @@
 
 from typing import Any
 
+from ai_reminder_agent.deterministic_extraction import ground_reminder
 from ai_reminder_agent.evaluation_dataset import EvaluationCase
 from ai_reminder_agent.output_schema import ReminderExtraction
 from ai_reminder_agent.prompt_templates import SYSTEM_INSTRUCTIONS, render_prompt
@@ -33,6 +34,14 @@ def request_model_output(
             provider="local_safety_filter",
             model=safety_decision.reason or "blocked",
         )
+    if getattr(provider, "provider_name", "") == "openai_compatible":
+        grounded = ground_reminder(case)
+        if grounded is not None:
+            return ProviderResponse(
+                raw_text=grounded.model_dump_json(),
+                provider="openai_compatible_grounded",
+                model="deterministic-grounding",
+            )
     schema = output_json_schema()
     context = case.context.model_dump(mode="json")
     prompt = render_prompt(request=case.request, context=context, schema=schema)

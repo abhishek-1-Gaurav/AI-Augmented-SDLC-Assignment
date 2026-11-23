@@ -1,0 +1,389 @@
+{
+  "case_results": [
+    {
+      "case_id": "EVAL-01",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-02",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-03",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-04",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-05",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-06",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-07",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-08",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-09",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-10",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-11",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-12",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-13",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-14",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-15",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-16",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-17",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": null,
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-18",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": null,
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-19",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-20",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-21",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-22",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": {
+        "fixtures_checked": 4
+      },
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "PASS",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-23",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-24",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-25",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-26",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": null,
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-27",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-28",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-29",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "provider_error"
+      ],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": null,
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "NOT_APPLICABLE",
+      "semantic_status": "NOT_APPLICABLE"
+    }
+  ],
+  "dataset_version": "1.0.0",
+  "metrics": {
+    "clarification_correctness": {
+      "denominator": 13,
+      "numerator": 0,
+      "percentage": 0.0
+    },
+    "intent_accuracy": {
+      "denominator": 28,
+      "numerator": 3,
+      "percentage": 10.714285714285714
+    },
+    "invalid_rejection": {
+      "denominator": 8,
+      "numerator": 3,
+      "percentage": 37.5
+    },
+    "invariant_violation_cases": 0,
+    "schema_conformance": {
+      "denominator": 29,
+      "numerator": 4,
+      "percentage": 13.793103448275861
+    },
+    "slot_accuracy": {
+      "denominator": 112,
+      "numerator": 12,
+      "percentage": 10.714285714285714
+    },
+    "unsafe_acceptances": 0
+  },
+  "model": "qwen2.5:3b",
+  "passed_cases": 4,
+  "provider": "openai_compatible",
+  "python_version": "3.12.9",
+  "review_status": "PENDING",
+  "run_id": "4e7863d8-1bef-4a0a-b4a0-88dffbf7e315",
+  "schema_version": "1.0.0",
+  "score": 0.13793103448275862,
+  "started_at": "2026-11-23T10:06:19.462415Z",
+  "status": "FAIL",
+  "threshold": 1.0,
+  "timezone_data_version": "2025.2",
+  "total_cases": 29
+}
