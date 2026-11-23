@@ -1,0 +1,2 @@
+[console_scripts]
+reminder-evaluate = ai_reminder_agent.evaluation_runner:main

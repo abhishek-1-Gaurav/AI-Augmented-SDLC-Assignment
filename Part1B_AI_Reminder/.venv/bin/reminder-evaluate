@@ -1,0 +1,10 @@
+#!/Users/abhishekgaurav/Documents/AI_SDLC_Assignment/Part1B_AI_Reminder/.venv/bin/python
+# -*- coding: utf-8 -*-
+import sys
+from ai_reminder_agent.evaluation_runner import main
+if __name__ == "__main__":
+    if sys.argv[0].endswith("-script.pyw"):
+        sys.argv[0] = sys.argv[0][:-11]
+    elif sys.argv[0].endswith(".exe"):
+        sys.argv[0] = sys.argv[0][:-4]
+    sys.exit(main())

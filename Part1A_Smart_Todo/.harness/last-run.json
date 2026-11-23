@@ -1,0 +1,92 @@
+{
+  "started_at": "2026-11-23T08:00:58+00:00",
+  "finished_at": "2026-11-23T08:00:59+00:00",
+  "overall_passed": true,
+  "gates": [
+    {
+      "name": "Python syntax validation",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-m",
+        "compileall",
+        "-q",
+        "src",
+        "tests",
+        ".harness"
+      ],
+      "started_at": "2026-11-23T08:00:58+00:00",
+      "finished_at": "2026-11-23T08:00:58+00:00",
+      "exit_code": 0,
+      "passed": true,
+      "output": ""
+    },
+    {
+      "name": "Ruff lint",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-m",
+        "ruff",
+        "check",
+        "src",
+        "tests",
+        ".harness",
+        "src/main.py",
+        "src/models.py",
+        "src/task_manager.py",
+        "src/storage.py"
+      ],
+      "started_at": "2026-11-23T08:00:58+00:00",
+      "finished_at": "2026-11-23T08:00:58+00:00",
+      "exit_code": 0,
+      "passed": true,
+      "output": "All checks passed!\n"
+    },
+    {
+      "name": "Bandit security scan",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-m",
+        "bandit",
+        "-q",
+        "-r",
+        "src",
+        ".harness"
+      ],
+      "started_at": "2026-11-23T08:00:58+00:00",
+      "finished_at": "2026-11-23T08:00:59+00:00",
+      "exit_code": 0,
+      "passed": true,
+      "output": ""
+    },
+    {
+      "name": "Pytest unit tests",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-m",
+        "pytest",
+        "tests/unit",
+        "-q"
+      ],
+      "started_at": "2026-11-23T08:00:59+00:00",
+      "finished_at": "2026-11-23T08:00:59+00:00",
+      "exit_code": 0,
+      "passed": true,
+      "output": "..........................................                               [100%]\n"
+    },
+    {
+      "name": "Pytest contract tests",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-m",
+        "pytest",
+        "tests/contract",
+        "-q"
+      ],
+      "started_at": "2026-11-23T08:00:59+00:00",
+      "finished_at": "2026-11-23T08:00:59+00:00",
+      "exit_code": 0,
+      "passed": true,
+      "output": ".                                                                        [100%]\n"
+    }
+  ]
+}

@@ -1,0 +1,671 @@
+{
+  "case_results": [
+    {
+      "case_id": "EVAL-01",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "invalid_output_contains_actionable_fields",
+        "expected_intent_mismatch",
+        "expected_title_mismatch"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "INVALID",
+        "needs_clarification": false,
+        "time": "14:30",
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-02",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "actionable_output_missing_required_field",
+        "expected_title_mismatch"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "CREATE",
+        "needs_clarification": false,
+        "time": "10:00",
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-03",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "expected_title_mismatch",
+        "clarification_question_not_targeted"
+      ],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "Is 'tomorrow' referring to the next day in the future or the next day in the local calendar day?",
+        "confidence": 0.95,
+        "date": "2026-11-24",
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": null,
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-04",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "actionable_output_missing_required_field",
+        "expected_intent_mismatch",
+        "expected_needs_clarification_mismatch",
+        "clarification_question_not_targeted"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "CREATE",
+        "needs_clarification": false,
+        "time": "10:00",
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-05",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "actionable_output_missing_required_field",
+        "expected_intent_mismatch",
+        "expected_title_mismatch",
+        "expected_date_mismatch",
+        "expected_needs_clarification_mismatch",
+        "clarification_question_not_targeted"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-04-05",
+        "intent": "CREATE",
+        "needs_clarification": false,
+        "time": "09:00",
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-06",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "actionable_output_missing_required_field",
+        "expected_intent_mismatch",
+        "expected_title_mismatch",
+        "expected_time_mismatch",
+        "expected_needs_clarification_mismatch",
+        "clarification_question_not_targeted"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "CREATE",
+        "needs_clarification": false,
+        "time": "09:00",
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-07",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "actionable_output_missing_required_field",
+        "expected_intent_mismatch",
+        "expected_title_mismatch",
+        "expected_needs_clarification_mismatch",
+        "clarification_question_not_targeted"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "CREATE",
+        "needs_clarification": false,
+        "time": "10:00",
+        "timezone": null,
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-08",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "actionable_output_missing_required_field",
+        "expected_title_mismatch"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "CREATE",
+        "needs_clarification": false,
+        "time": "10:00",
+        "timezone": "America/Los_Angeles",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-09",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-25",
+        "intent": "RESCHEDULE",
+        "needs_clarification": false,
+        "time": "08:15",
+        "timezone": "Asia/Kolkata",
+        "title": "Pay electricity bill"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-10",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "actionable_output_missing_required_field",
+        "target_not_unique",
+        "expected_intent_mismatch",
+        "expected_needs_clarification_mismatch",
+        "clarification_question_not_targeted"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "RESCHEDULE",
+        "needs_clarification": false,
+        "time": "09:00",
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-11",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-23",
+        "intent": "SNOOZE",
+        "needs_clarification": false,
+        "time": "09:20",
+        "timezone": "Asia/Kolkata",
+        "title": "Take a break"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-12",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "actionable_output_missing_required_field",
+        "target_not_unique",
+        "expected_intent_mismatch",
+        "expected_date_mismatch",
+        "expected_time_mismatch",
+        "expected_needs_clarification_mismatch",
+        "clarification_question_not_targeted"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": null,
+        "intent": "SNOOZE",
+        "needs_clarification": false,
+        "time": null,
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-13",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "invalid_output_contains_actionable_fields",
+        "expected_intent_mismatch",
+        "expected_title_mismatch",
+        "expected_needs_clarification_mismatch",
+        "clarification_question_not_targeted"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 0.8,
+        "date": "2027-11-07",
+        "intent": "INVALID",
+        "needs_clarification": false,
+        "time": "01:30",
+        "timezone": "America/New_York",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-14",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "invalid_output_contains_actionable_fields",
+        "expected_date_mismatch",
+        "expected_time_mismatch",
+        "expected_timezone_mismatch"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-02-30",
+        "intent": "INVALID",
+        "needs_clarification": false,
+        "time": "10:00",
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-15",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "invalid_output_contains_actionable_fields",
+        "expected_timezone_mismatch"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 0.5,
+        "date": null,
+        "intent": "INVALID",
+        "needs_clarification": false,
+        "time": null,
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-16",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "invalid_output_contains_actionable_fields",
+        "expected_timezone_mismatch"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 0.0,
+        "date": null,
+        "intent": "INVALID",
+        "needs_clarification": false,
+        "time": null,
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-17",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": null,
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-18",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": null,
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-19",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "actionable_output_missing_required_field",
+        "expected_intent_mismatch",
+        "expected_title_mismatch",
+        "expected_date_mismatch",
+        "expected_needs_clarification_mismatch",
+        "clarification_question_not_targeted"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2023-04-15",
+        "intent": "CREATE",
+        "needs_clarification": false,
+        "time": "10:00",
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-20",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "actionable_output_missing_required_field",
+        "expected_intent_mismatch",
+        "expected_date_mismatch",
+        "expected_time_mismatch",
+        "expected_timezone_mismatch"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-23",
+        "intent": "CREATE",
+        "needs_clarification": false,
+        "time": "08:00",
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-21",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "invalid_output_contains_actionable_fields",
+        "expected_intent_mismatch",
+        "expected_title_mismatch",
+        "expected_needs_clarification_mismatch",
+        "clarification_question_not_targeted"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 0.8,
+        "date": "2027-03-14",
+        "intent": "INVALID",
+        "needs_clarification": false,
+        "time": "02:30",
+        "timezone": "America/New_York",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-22",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "NOT_APPLICABLE",
+      "observed_output": {
+        "fixtures_checked": 4
+      },
+      "safety_status": "NOT_APPLICABLE",
+      "schema_status": "PASS",
+      "semantic_status": "NOT_APPLICABLE"
+    },
+    {
+      "case_id": "EVAL-23",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "actionable_output_missing_required_field",
+        "expected_title_mismatch",
+        "expected_date_mismatch"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-28",
+        "intent": "CREATE",
+        "needs_clarification": false,
+        "time": "10:00",
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-24",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "expected_title_mismatch",
+        "clarification_question_not_targeted"
+      ],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "Is 'tomorrow evening' referring to the evening of November 24, 2026?",
+        "confidence": 0.9,
+        "date": "2026-11-24",
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": null,
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-25",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "clarification_question_not_targeted"
+      ],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "Is the reminder scheduled for today or a future date?",
+        "confidence": 0.95,
+        "date": null,
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": null,
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-26",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": null,
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-27",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "expected_intent_mismatch",
+        "expected_date_mismatch",
+        "expected_timezone_mismatch",
+        "expected_needs_clarification_mismatch"
+      ],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": "Is the time 25:00 AM or 25:00 PM?",
+        "confidence": 0.85,
+        "date": "2026-11-24",
+        "intent": "CLARIFY",
+        "needs_clarification": true,
+        "time": null,
+        "timezone": "Asia/Kolkata",
+        "title": null
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    },
+    {
+      "case_id": "EVAL-28",
+      "case_status": "PASS",
+      "failure_codes": [],
+      "invariant_status": "PASS",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": "2026-11-24",
+        "intent": "SNOOZE",
+        "needs_clarification": false,
+        "time": "14:00",
+        "timezone": "Asia/Kolkata",
+        "title": "Take a break"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "PASS"
+    },
+    {
+      "case_id": "EVAL-29",
+      "case_status": "FAIL",
+      "failure_codes": [
+        "actionable_output_missing_required_field",
+        "expected_intent_mismatch",
+        "expected_needs_clarification_mismatch",
+        "clarification_question_not_targeted"
+      ],
+      "invariant_status": "FAIL",
+      "observed_output": {
+        "clarification_question": null,
+        "confidence": 1.0,
+        "date": null,
+        "intent": "SNOOZE",
+        "needs_clarification": false,
+        "time": null,
+        "timezone": "Asia/Kolkata",
+        "title": "Take a break"
+      },
+      "safety_status": "PASS",
+      "schema_status": "PASS",
+      "semantic_status": "FAIL"
+    }
+  ],
+  "dataset_version": "1.0.0",
+  "metrics": {
+    "clarification_correctness": {
+      "denominator": 13,
+      "numerator": 0,
+      "percentage": 0.0
+    },
+    "intent_accuracy": {
+      "denominator": 28,
+      "numerator": 15,
+      "percentage": 53.57142857142857
+    },
+    "invalid_rejection": {
+      "denominator": 8,
+      "numerator": 3,
+      "percentage": 37.5
+    },
+    "invariant_violation_cases": 18,
+    "schema_conformance": {
+      "denominator": 29,
+      "numerator": 29,
+      "percentage": 100.0
+    },
+    "slot_accuracy": {
+      "denominator": 112,
+      "numerator": 84,
+      "percentage": 75.0
+    },
+    "unsafe_acceptances": 0
+  },
+  "model": "qwen2.5:3b",
+  "passed_cases": 7,
+  "provider": "openai_compatible",
+  "python_version": "3.12.9",
+  "review_status": "PENDING",
+  "run_id": "dd68d6c1-61b9-46fd-9806-7be595c03e48",
+  "schema_version": "1.0.0",
+  "score": 0.2413793103448276,
+  "started_at": "2026-11-23T07:45:07.723995Z",
+  "status": "FAIL",
+  "threshold": 1.0,
+  "timezone_data_version": "2025.2",
+  "total_cases": 29
+}

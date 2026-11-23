@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: ai-reminder-agent
+Version: 0.1.0
+Summary: Structured, safety-conscious reminder request extraction
+Requires-Python: <3.13,>=3.12
+Requires-Dist: pydantic<3,>=2
+Requires-Dist: tzdata==2025.2
+Provides-Extra: test
+Requires-Dist: pytest<9,>=8; extra == "test"
